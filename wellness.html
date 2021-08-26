@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta chaRset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="Images/icon.png" type="image/x-icon" sizes="16x16">
+    <link rel="stylesheet" href="CSS/navBar.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/wellness.css">
+    <title>Buy Wellness products online at Netmeds.com</title>
+</head>
+
+<body>
+
+    <header class="navBar">
+        <div class="pageWrap logo"><a href="index.html"><img
+                    src="https://www.netmeds.com/assets/gloryweb/images/home-logo-netmeds.svg" alt="Logo"></a>
+        </div>
+        <div class="searchDiv">
+            <div class="deliveryBox">
+                <img src="Images/locationHome.png" alt="">
+                <div>
+                    <p>Delivering to</p>
+                    <div>
+                        <h4 id="editH4" min="1" max="6">110001</h4>
+                        <!--  <input type="number" value="110001" id="inpEdit" min="1" max="6"> -->
+                        <button id="penEdit"><img src="Images/pen.png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+            <div class="searchBox">
+                <input type="search" placeholder="Search for medicine & wellness product...">
+            </div>
+            <div class="btnBox">
+                <button><img src="Images/searchBtn.png" alt=""></button>
+            </div>
+        </div>
+        <div class="uploadDiv">UPLOAD</div>
+        <div class="cartIconDiv invert"><a href="cart.html"><img src="Images/cartIcon.png" alt="Cart Bag">
+                <p id="itemsInCart">0</p>
+            </a>
+        </div>
+        <div class="userIconDiv invert"><a href="signup.html"><img src="Images/userIcon.png" alt="User Login"></a>
+        </div>
+        <div class="loginDiv"><a href="signup.html" id="userLoginName">Sign in / Sign up</a></div>
+    </header>
+
+    <nav class="mainNav">
+        <ul class="nav">
+            <li class="navArrow"><a href="#">
+                    <img src="Images/navIcon.png" alt="Icon">
+                    <p>Medicine <img src="Images/downArrow.png" alt="" class="invert" id="navArro"></p>
+                    <small>Over 25000 products</small>
+                </a>
+                <ul class="subNav">
+                    <li><a href="#">All Medicines</a></li>
+                    <li><a href="#">Perviously Ordered Products</a></li>
+                </ul>
+            </li>
+            <li><a href="#">
+                    <img src="Images/navIcon.png" alt="Icon">
+                    <p>Wellness</p>
+                    <small>Health products</small>
+                </a>
+            </li>
+            <li><a href="Diagnostic.html">
+                    <img src="Images/navIcon.png" alt="Icon">
+                    <p>Diagnostic</p>
+                    <small>Book test & checkup</small>
+                </a>
+            </li>
+            <li><a href="#">
+                    <img src="Images/navIcon.png" alt="Icon">
+                    <p>Health Corner<img src="Images/downArrow.png" alt="" class="invert"></p>
+                    <small>Trending tips from health expert</small>
+                </a>
+                <ul class="subNav">
+                    <li><a href="#">Health Library</a></li>
+                    <li><a href="#">PatientAlike</a></li>
+                    <li><a href="#">Corona Awareness</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <nav class="nav-2">
+        <ul>
+            <li><a href="covidEssentials.html">COVID Essentials</a></li>
+            <li><a href="#">Diabetes</a></li>
+            <li><a href="#">Eyewear</a></li>
+            <li><a href="#">Ayush</a></li>
+            <li><a href="#">Fitness</a></li>
+            <li><a href="#">Personal Care</a></li>
+            <li><a href="#">Mom & Baby</a></li>
+            <li><a href="#">Devices</a></li>
+            <li><a href="#">Devices</a></li>
+            <li><a href="#">Surgicals</a></li>
+            <li><a href="#">Sexual Wellness</a></li>
+            <li><a href="#">Treatments</a></li>
+        </ul>
+    </nav>
+
+    <!--==========First-Section============-->
+
+    <!-- slider -->
+    <div id="top-add"></div>
+
+    <!-- After Slider -->
+    <div id="container">
+        <div class="clearfix">
+            <div class="home-shopby-category">
+                <h2>EXPLORE</h2>
+                <span>Popular Categories</span> <br />
+                <p>Get Best Deals On Wellness Products</p>
+            </div>
+            <div class="product">
+                <div>
+                    <img src="https://www.netmeds.com/images/category/3055/thumb/covid-essentials_0.jpg" alt="" />
+                    <span>Covid Essential</span>
+                </div>
+                <div>
+                    <img src="https://www.netmeds.com/images/category/3328/thumb/diabetes_0.jpg" alt="" />
+                    <span>Diabetes</span>
+                </div>
+                <div>
+                    <img src="https://www.netmeds.com/images/category/491/thumb/homeopathy_0.jpg" alt="" />
+                    <span>Homeopathy</span>
+                </div>
+                <div>
+                    <img src="https://www.netmeds.com/images/category/482/thumb/ayurvedic_0.jpg" alt="" />
+                    <span>Ayurvedic</span>
+                </div>
+                <div>
+                    <img src="https://www.netmeds.com/images/category/3222/thumb/vitamins_and_supplements_0.jpg"
+                        alt="" />
+                    <span>Vitamins</span>
+                </div>
+                <div>
+                    <img src="https://www.netmeds.com/images/category/3086/thumb/baby_care_0.jpg" alt="" />
+                    <span>Baby Care</span>
+                </div>
+                <!-- <div>
+                        <img src="https://www.netmeds.com/images/category/3087/thumb/feminine_hygeine_0.jpg" alt="" />
+                        <span>Feminine Hygiene</span>
+                    </div>
+                    <div>
+                        <img src="https://www.netmeds.com/images/category/535/thumb/face_care.jpg" alt="" />
+                        <span>Face Care</span>
+                    </div>
+                    <div>
+                        <img src="https://www.netmeds.com/images/category/3210/thumb/weight_management_0.jpg" alt="" />
+                        <span>Weight Management</span>
+                    </div> -->
+            </div>
+        </div>
+
+        <!--==========Second - Section============-->
+
+        <div class="homeProducts">
+            <h5>TODAY'S EXCLUSIVE</h5>
+            <p>Lightning Deals</p>
+            <div id="flexPro1" class="flexProduct"></div>
+        </div>
+
+
+        <!--==========Third Section============-->
+
+        <div class="homeProducts">
+            <h5>BEST SELLERS</h5>
+            <p>Covid Essentials</p>
+            <div id="flexPro2" class="flexProduct"></div>
+        </div>
+
+        <!--==========Forth Section  ============-->
+
+        <div class="homeProducts">
+            <h5>EXPLORE</h5>
+            <p>Multi Vitamins</p>
+            <div id="flexPro3" class="flexProduct"></div>
+        </div>
+
+        <!--================= Fifth Section ================-->
+        <div class="homeProducts">
+            <h5>BEST SELLERS</h5>
+            <p>Face Washes</p>
+            <div id="flexPro4" class="flexProduct"></div>
+        </div>
+
+
+        <!--====== sixth section  ======-->
+
+        <div class="clearfix-2">
+            <div class="home-shopby-category">
+                <h2>Explore By</h2> <br />
+                <span>Health Concerns</span>
+                <p>Search products according to your health problems</p>
+            </div>
+            <div class="product2">
+                <div class="item-1">
+                    <img src="https://www.netmeds.com/images/cms/wysiwyg/category/v2/web/diabetic-care.png" alt="" />
+                    <div class="text">
+                        <h4>Diabetic care</h4>
+                        <span>SHOP NOW</span>
+                    </div>
+                </div>
+                <div class="item-1">
+                    <img src="https://www.netmeds.com/images/cms/wysiwyg/category/v2/web/liver-care.png" alt="" />
+                    <div class="text">
+                        <h4>Liver care</h4>
+                        <span>SHOP NOW</span>
+                    </div>
+                </div>
+                <div class="item-1">
+                    <img src="https://www.netmeds.com/images/cms/wysiwyg/category/v2/web/stomach-care.png" alt="" />
+                    <div class="text">
+                        <h4>Stomach care</h4>
+                        <span>SHOP NOW</span>
+                    </div>
+                </div>
+                <div class="item-1">
+                    <img src="https://www.netmeds.com/images/cms/wysiwyg/category/v2/web/de-addiction.png" alt="" />
+                    <div class="text">
+                        <h4>De-Addiction</h4>
+                        <span>SHOP NOW</span>
+                    </div>
+                </div>
+                <div class="item-1">
+                    <img src="https://www.netmeds.com/images/cms/wysiwyg/category/v2/web/kidney-care.png" alt="" />
+                    <div class="text">
+                        <h4>Kidney care</h4>
+                        <span>SHOP NOW</span>
+                    </div>
+                </div>
+                <div class="item-1">
+                    <img src="https://www.netmeds.com/images/cms/wysiwyg/category/v2/web/lung-care.png" alt="" />
+                    <div class="text">
+                        <h4>Lung Care</h4>
+                        <span>SHOP NOW</span>
+                    </div>
+                </div>
+                <div class="item-1">
+                    <img src="https://www.netmeds.com/images/cms/wysiwyg/category/v2/web/piles-care.png" alt="" />
+                    <div class="text">
+                        <h4>Piles care</h4>
+                        <span>SHOP NOW</span>
+                    </div>
+                </div>
+                <div class="item-1">
+                    <img src="https://www.netmeds.com/images/cms/wysiwyg/category/v2/web/mental-care.png" alt="" />
+                    <div class="text">
+                        <h4>Mental Care</h4>
+                        <span>SHOP NOW</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--================= Footer ================-->
+    <footer id="footer">
+        <div class="firstDiv">
+            <div class="f_logo">
+                <a href="#"><img src="https://www.netmeds.com/assets/gloryweb/images/home-logo-netmeds.svg"
+                        alt="Logo"></a>
+            </div>
+            <div>
+                <p>Netmeds.com, India Ki Pharmacy, is brought to you by the Dadha & Company – one of India’s most
+                    trusted <br> pharmacies, with
+                    over 100 years’ experience in dispensing quality medicines.</p>
+            </div>
+        </div>
+
+        <div class="secondDiv">
+            <div>
+                <h5>COMPANY</h5>
+                <ul>
+                    <li><a href="#">About Netmeds</a></li>
+                    <li><a href="#">Customers Speak</a></li>
+                    <li><a href="#">In the News</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5>SHOPPING</h5>
+                <ul>
+                    <li><a href="#">Browse by A-Z</a></li>
+                    <li><a href="#">Browse by Manufactures</a></li>
+                    <li><a href="#">Health Articles</a></li>
+                    <li><a href="#">Offers / Coupons</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5>CATEGORIES</h5>
+                <ul>
+                    <li><a href="#">Ayush</a></li>
+                    <li><a href="#">Devices</a></li>
+                    <li><a href="#">Family Care</a></li>
+                    <li><a href="#">Fitness</a></li>
+                    <li><a href="#">Lifestyle</a></li>
+                    <li><a href="#">Personal Care</a></li>
+                    <li><a href="#">Treatments</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5>SOCIAL</h5>
+                <ul>
+                    <li><a href="#">Patients Alike</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">YouTube</a></li>
+                    <li><a href="#">Refer & Earn</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5>SUBSCRIBE TO OUR NEWSLETTER</h5>
+                <p>Get a free subscription to our health and fitness tip and stay tuned to our latest offers</p>
+                <div>
+                    <input type="email" placeholder="Enter your email address">
+                    <button><img src="Images/f_btnIcon.png" alt="" class="invert"></button>
+                </div>
+                <div class="f_icon">
+                    <img src="https://www.netmeds.com/assets/gloryweb/images/icons/play_store.svg" alt="">
+                    <img src="https://www.netmeds.com/assets/gloryweb/images/icons/app_store.svg" alt="">
+                </div>
+                <h6><a href="#">Download App</a></h6>
+            </div>
+        </div>
+
+        <div class="last">
+            <div><img src="Images/navIcon.png" alt="">
+                <p>Medicine Products</p>
+            </div>
+            <div><img src="Images/navIcon.png" alt="">
+                <p>Health Product</p>
+            </div>
+            <div><img src="Images/navIcon.png" alt="">
+                <p>Book test & checkups</p>
+            </div>
+            <div>Copyright© 2021 Netmeds Marketplace Ltd.</div>
+        </div>
+    </footer>
+
+
+    <script>
+        function myshow() {
+            let scroll1 = document.querySelector(".product1")
+            document.querySelector(".up").onclick = () => {
+                console.log("helloUP")
+                scroll1.scrollBy({
+                    top: 0,
+                    left: -260,
+                    behavior: 'smooth'
+                });
+            }
+            document.querySelector(".down").onclick = () => {
+                console.log("helloDown")
+                scroll1.scrollBy({
+                    top: 0,
+                    left: 256,
+                    behavior: 'smooth'
+                })
+            }
+        }
+        myshow()
+    </script>
+
+    <script src="JS/itemsInCart.js"></script>
+    <script src="JS/nav.js"></script>
+    <script src="JS/wellness.js"></script>
+
+    <!-- !this js file include only for slider -->
+    <script src="JS/home.js"></script>
+
+</body>
+
+</html>
